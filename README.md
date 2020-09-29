@@ -5,6 +5,7 @@ Forked from v1.16.1 of the original hello.js
 
 # Changelog
 
+- v0.1.4: Add try/catch to avoid issues when a `state` url param is used in other flows in the app and is not of the type (JSON) that hello.js supports
 - v0.1.3: Rename scope name `lite` (`r_liteprofile`) back to `basic` (still points to `r_liteprofile`)
 - v0.1.2: `r_basicprofile` is now `r_liteprofile` as documented in LinkedIn's
   [Migration FAQ][migration-faq]. The scope name is also changed from `basic`
